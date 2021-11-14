@@ -18,8 +18,10 @@ public class Methodq11 {
 			double average2 = sum2 / y.length;
 		}
 		if (sum1/x.length > sum2/y.length) {
+			return true;
 		}
-		return true;
-	}
+		return false;
+		
+		}
 }
 
