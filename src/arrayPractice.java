@@ -2,7 +2,7 @@
 public class arrayPractice {
 
 	static String[] names = {"Sam", "Tommy", "Tim", "Sally", "Buck", "Bob"};
-	int[] nameLengths = new int[names.length];
+	int[] nameLengths = new int[names.length]; 
 	public static void main(String[] args) {
 		
 		new arrayPractice().run();
@@ -25,8 +25,11 @@ public class arrayPractice {
 		
 		System.out.println(result);
 
-	for (int i = 0; i < names.length; i++) {
+//	5. Create a new array of int called nameLengths. Write a loop to iterate over the previously 
+//		created names array and add the length of each name to the nameLengths array.
+		for (int i = 0; i < names.length; i++) {
 		nameLengths[i] = names[i].length();
+		System.out.println(names[i].length());
 	}
 //	6. Write a loop to iterate over the nameLengths array and calculate the sum of all the 
 //	elements in the array. Print the result to the console.
